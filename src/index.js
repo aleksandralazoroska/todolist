@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(
-  <ol>
-    <li>The capital of Spain is Madrid</li>
-    <li>The capital of France is Paris</li>
-    <li>The capital of Portugal is Lisabon</li>
-    <li>The capital of Sweden is Stockholm</li>
-    <li>The capital of England is London</li>
-  </ol>,
+function MyInfo(){
+  return (
+    <div class="container-biography">
+      <h1>Aleksandra</h1>
+      <p>I'm from Macedonia, and work how Frontend Developer</p>
+      <ul>
+        <li>Santorini</li>
+        <li>Malta</li>
+        <li>Turkey</li>
+      </ul>
+    </div>
+
+  )
+}
+
+ReactDOM.render (
+  <MyInfo />,
   document.getElementById('root')
-);
+)

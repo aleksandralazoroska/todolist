@@ -17,21 +17,5 @@ function App() {
 
 export default App;
 
-function App() {
-    return (
-        <div>
-            <input type="checkbox" />
-            <p>I have a bike</p>
 
-            <input type="checkbox" />
-            <p>I have a car</p>
-
-            <input type="checkbox" />
-            <p>I have a boat</p>
-
-            <input type="checkbox" />
-            <p>I have a plane</p>
-        </div>
-    )
-}
 

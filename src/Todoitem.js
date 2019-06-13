@@ -18,5 +18,5 @@ function Todoitem() {
     )
 }
 
-export default Todoitem
+export default Todoitem;
 

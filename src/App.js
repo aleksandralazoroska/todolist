@@ -1,21 +1,18 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header.js';
-import MainContent from './components/MainContent.js';
-import Footer from './components/Footer.js';
+import Todoitem from './Todoitem.js';
 
 function App() {
     return (
-        <div>
-            <Header />
-            <MainContent />
-            <Footer />
+        <div className="todo-list">
+            <Todoitem />
         </div>
     )
+
 }
 
 export default App;
-
 
 

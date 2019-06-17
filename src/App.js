@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
-import Joke from './Joke.js';
+import Joke from './components/Joke.js';
 
 function App() {
     return (

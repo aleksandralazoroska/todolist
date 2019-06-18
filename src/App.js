@@ -7,6 +7,8 @@ import Joke from './components/Joke.js';
 function App() {
     return (
         <div>
+            <Joke punchLine="A physicist, an engineer, and a mathematician are all locked in separate burning buildings."/>
+            
             <Joke 
                 question="What do you call an elephant that doesn’t matter?" 
                 punchLine="An irrelephant." 

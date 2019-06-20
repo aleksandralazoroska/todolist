@@ -2,18 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
-import Todoitem from './components/Todoitem.js';
-import todosData from './components/todosData.js';
 
-function App() {
-    const Todoitems = todosData.map(item => <Todoitem key={item.id} item={item}/>)
+// function App(props) {
 
-    return (
-        <div className="todo-list">
-            {Todoitems}
-        </div>
-    )  
-}   
+//   return (
+//        <div>
+//          <h1>props.whatever</h1>
+//       </div>
+//    )  
+// }   
+
+class App extends React.Component {
+
+    yourMethodHere() {
+
+    }
+    render() {
+          return (
+            <div>
+                <h1>{this.props.whatever}</h1>
+            </div>
+        ) 
+    }
+}
 
 export default App;
 
